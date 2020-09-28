@@ -140,6 +140,17 @@ In this task you will examine how well the backup commands preserve file metadat
 	Yes, by using the flag : `--same-owner`
 
 	![](img/same.png)
+	
+	
+
+**TAR COMMAND - TEST**
+
+STEP 1: 
+
+![](img/step1.png)
+
+We use the tar archive that we created at task 2 and we extract it in a tmp directory
+	
 
 
 **ZIP COMMAND**
