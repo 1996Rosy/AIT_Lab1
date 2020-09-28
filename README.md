@@ -41,7 +41,7 @@
 
  ![](img/dev2.png)
 
-According to the result of the ls command, we notice that that the disk sdc and its partitions sdc1 and sdc2 have appeared another special file named sg3 has also appeared.
+According to the result of the ls command, we notice that that the disk sdc and its partitions sdc1 and sdc2 have appeared another special file named sg3 has also appeared. It is important to note here that I did not use an empty USB stick.
 
 
 3. Create a partition table on the disk and create two partitions of equal size using the parted tool
@@ -49,8 +49,14 @@ According to the result of the ls command, we notice that that the disk sdc and 
  ![](img/partedFull.png)
 
  ![](img/explain1.png)
+	This is an image of what was in my USB stick before I used parted.
+	
  ![](img/explain2.png)
+ 	Here we can see that parted has emptied my USB stick
+ 
+ 
  ![](img/explain3.png)
+ 	And here we can see that we have the 2 partitions asked for in the instruction sheet.
 
 4. Format the two partitions using the mkfs command.
 
